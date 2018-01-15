@@ -1,0 +1,59 @@
+<?
+
+?>
+основной отчет
+<table border =1>
+	<thead>
+		<tr>
+			<th>month</th>
+			<th>stock1</th>
+			<th>stock1</th>
+			<th>stock1</th>
+			<th>total</th>	
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>plan</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>prinyato</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>ostalos'</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>plan in day</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>				
+		<tr>
+			<td>middle</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>day of month</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>	
+	</tbody>
+</table>

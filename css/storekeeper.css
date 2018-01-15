@@ -1,0 +1,341 @@
+a
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+h1
+{
+   font-family: Arial;
+   font-size: 32px;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h2
+{
+   font-family: Arial;
+   font-size: 27px;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h3
+{
+   font-family: Arial;
+   font-size: 24px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h4
+{
+   font-family: Arial;
+   font-size: 21px;
+   font-weight: normal;
+   font-style: italic;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h5
+{
+   font-family: Arial;
+   font-size: 19px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h6
+{
+   font-family: Arial;
+   font-size: 16px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+.CustomStyle
+{
+   font-family: "Courier New";
+   font-size: 16px;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   color: #000080;
+   background-color: transparent;
+}
+
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   margin: 0;
+   padding: 0;
+}
+#stock
+{
+   border: 1px #A9A9A9 solid;
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   position:absolute;left:126px;top:52px;width:96px;height:21px;z-index:0;
+}
+#goods
+{
+   border: 1px #A9A9A9 solid;
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   position:absolute;left:128px;top:89px;width:94px;height:21px;z-index:1;
+}
+#num_goods
+{
+   border: 1px #A9A9A9 solid;
+   background-color: #FFFFFF;
+   color :#000000;
+   font-family: Arial;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: middle;
+   position:absolute;left:126px;top:137px;width:91px;height:19px;line-height:19px;z-index:2;
+}
+#arrived_yes{
+	position:absolute;left:15px;top:183px;z-index:3;	
+}
+
+#arrived_no{
+	position:absolute;left:98px;top:183px;z-index:4;
+}
+#MegaMenu1
+{
+   float: left;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   font-family: Arial;
+   font-size: 13px;
+}
+#MegaMenu1 li
+{
+   float: left;
+   margin: 0;
+   padding: 0;
+   position: relative;
+}
+#MegaMenu1 li a
+{
+   float: left;
+}
+#MegaMenu1 li .submenu
+{
+   display: none;
+   float: left;
+   left: 0;
+   padding: 15px 15px 15px 15px;
+   position: absolute;
+   top: 0;
+}
+#MegaMenu1 li .row
+{
+   clear: both;
+   float: left;
+   margin-bottom: 10px;
+   width: 100%;
+}
+#MegaMenu1 li .submenu ul
+{
+   float: left;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   width: 150px;
+}
+#MegaMenu1 .submenu ul li
+{
+   width: 100%;
+}
+#MegaMenu1 .submenu ul li h2
+{
+   font-family: Arial;
+   font-size: 13px;
+   font-weight: bold;
+   font-style: normal;
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+}
+#MegaMenu1 .submenu ul li h2 a
+{
+   background-image: none;
+   background-color: transparent;
+   border-width: 0;
+   font-weight: bold;
+   font-style: normal;
+   padding: 5px 0;
+   text-decoration: none;
+}
+#MegaMenu1 .submenu ul li h2 a:hover
+{
+   padding: 5px 0;
+}
+#MegaMenu1 .submenu ul li a
+{
+   display: block;
+   float: none;
+   font-weight: normal;
+   font-style: normal;
+   height: auto;
+   padding: 7px 5px 7px 15px;
+   text-decoration: none;
+   text-indent: 0;
+}
+#MegaMenu1 .submenu ul li a:hover
+{
+   padding: 6px 4px 6px 14px;
+}
+#MegaMenu1 .submenu ul li a .ui-icon
+{
+   left: 0;
+   margin-top: -8px;
+   position: absolute;
+   top: 50%;
+}
+#MegaMenu1 .button
+{
+   cursor: pointer;
+   font-weight: normal;
+   font-style: normal;
+   margin: 0 1px 0 0;
+   outline: 0;
+   padding: 4px 20px 4px 8px;
+   position: relative;
+   text-align: center;
+   text-decoration: none !important;
+   color: #2779AA;
+}
+#MegaMenu1 .button:hover
+{
+   color: #0070A3;
+}
+#MegaMenu1 .button:active
+{
+   color: #FFFFFF;
+}
+#MegaMenu1 .ui-widget-content a
+{
+   color: #362B36;
+}
+#MegaMenu1 .ui-widget-content a:hover
+{
+   color: #0070A3;
+}
+#MegaMenu1 .button .ui-icon
+{
+   left: auto;
+   margin-top: -8px;
+   margin-left: 0;
+   position: absolute;
+   right: 4px;
+   top: 50%;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text1 div
+{
+   text-align: left;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text2 div
+{
+   text-align: left;
+}
+#wb_Text3 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text3 div
+{
+   text-align: left;
+}
+
+button
+{
+	float:none;
+	clear:both;
+	
+}
+
+menu li
+{
+	float:none;
+	
+}
+.toolbar
+{
+	float:left;
+	width:20%;min-width:20%;
+	background-color:red;
+	
+}

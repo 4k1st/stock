@@ -1,0 +1,64 @@
+<form name="owner_add" method="POST">
+	<table>	
+		<thead>
+			<tr>
+				<th colspan=4>
+					название фирмы<input type='text' id='firmName'name='firmName' value="[:FIRMNAME]"/>
+				</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>склад: 
+					<select>
+						<!--option>	</option-->
+						[:STOCK]
+					</select>
+				</td>
+				<td>
+					<input type='button' onclick='' name='createStock' id='createStock' value='создать'/>
+				</td>
+				<td>
+					<input type='button' onclick='' name='deleteStock' id='deleteStock' value='удалить'/>
+				</td>
+				<td>
+					<input type='button' onclick='' name='editStock' id='editStock' value='редактировать'/>
+				</td>	
+			</tr>
+			<tr>
+				<td>Пользователь: 
+					<select>
+						<!--option>	</option-->
+						[:USER]
+					</select>
+				</td>
+				<td>
+					<input type='button' onclick='' name='createUser' id='createUser' value='создать'/>
+				</td>
+				<td>
+					<input type='button' onclick='' name='deleteUser' id='deleteUser' value='удалить'/>
+				</td>
+				<td>
+					<input type='button' onclick='' name='editUser' id='editUser' value='редактировать'/>
+				</td>	
+			</tr>
+			<tr>
+				<td>Продукция: 
+					<select>
+						<!--option>	</option-->
+						[:GOODS]
+					</select>
+				</td>
+				<td>
+					<input type='button' onclick='' name='createGoods' id='creategoods' value='создать'/>
+				</td>
+				<td>
+					<input type='button' onclick='' name='deleteGoods' id='deleteGoods' value='удалить'/>
+				</td>
+				<td>
+					<input type='button' onclick='' name='editGoods' id='editGoods' value='редактировать'/>
+				</td>	
+			</tr>
+		</tbody>
+	</table>	
+</form>
